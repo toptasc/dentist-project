@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+
+   
+        html {
+          width: 100%;
+        }
+        .nav-bar{
+            .MuiToolbar-root{
+              justify-content: start;
+            }
+          }
+        .suggestion-form{
+            display:flex;
+            flex-direction:column;
+            width:70%;
+            gap:20px;
+            margin:20px;
+            .MuiOutlinedInput-root{
+                height: 7em;
+            }
+        }
+      
+}
